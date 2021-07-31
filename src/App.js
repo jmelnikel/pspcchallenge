@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import getCheeseDirectory from './APIs';
-import CheeseList from './components/CheeseList'
+import CheeseList from './components/CheeseList';
 import './App.css';
 
 const App = () => {
@@ -17,7 +17,9 @@ const App = () => {
       });
   }, []);
 
-
+  const handleChange = (event) => {
+    setLanguage(event.target.value)
+  };
 
   return (
     <>
@@ -28,12 +30,26 @@ const App = () => {
       </header>
 
       <main>
+        <form>
+          <label htmlFor={language}>Language: / Langage:
+            <select
+              id={language}
+              name={language}
+              value={language}
+              onChange={handleChange}
+            >
+              <option value="EN">Englsh</option>
+              <option value="FR">Francais</option>
+            </select>
+          </label>
+        </form>
+
         <CheeseList cheeseDirectory={cheeseDirectory} language={language} />
       </main>
 
       <footer></footer>
     </>
   );
-}
+};
 
 export default App;
