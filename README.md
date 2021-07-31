@@ -3,7 +3,8 @@
 
 Clone the project to your local machine and in the project main directory, run:
 
-`npm start`
+`npm install`, then
+`npm start`.
 
 Then in your browser, navigate to: 
 
