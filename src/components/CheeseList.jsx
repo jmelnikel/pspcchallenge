@@ -10,8 +10,8 @@ const CheeseList = (props) => {
       <thead>
         <tr>
           <th>ID</th>
-          <th>Name (En)</th>
-          <th>Name (Fr)</th>
+          <th>Name</th>
+          <th>Nom</th>
           <th>Manufacturer</th>
           <th>Manuf. Prov.</th>
           <th>Manuf. Type</th>
