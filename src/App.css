@@ -1,0 +1,25 @@
+th {
+  background-color: white;
+  border-bottom: 1px solid black;
+  position: sticky;
+  top: 0;
+  min-width: 5.0rem;
+}
+
+td {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2 {
+  margin: 0
+}

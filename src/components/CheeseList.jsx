@@ -20,13 +20,13 @@ const CheeseList = (props) => {
           <th>Moisture %</th>
           <th>Particularities</th>
           <th>Flavor</th>
-          <th>Charac.</th>
+          <th>Characteristics</th>
           <th>Ripening</th>
-          <th>Organinc</th>
-          <th>Cat. Type</th>
+          <th>Organic</th>
+          <th>Category Type</th>
           <th>Milk Type</th>
           <th>Milk Treat.</th>
-          <th>Rinf Type</th>
+          <th>Rind Type</th>
           <th>Last Update</th>
         </tr>
       </thead>
